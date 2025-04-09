@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/amreetdeol/Desktop/Blackjack/cpp-server
+CMAKE_SOURCE_DIR = /Users/gurnoorjande/final-blackjack/cpp-server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/amreetdeol/Desktop/Blackjack/cpp-server/build
+CMAKE_BINARY_DIR = /Users/gurnoorjande/final-blackjack/cpp-server/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server.dir/depend.make
@@ -73,158 +73,158 @@ CMakeFiles/server.dir/codegen:
 .PHONY : CMakeFiles/server.dir/codegen
 
 CMakeFiles/server.dir/src/game_manager.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/game_manager.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_manager.cpp
+CMakeFiles/server.dir/src/game_manager.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/game_manager.cpp
 CMakeFiles/server.dir/src/game_manager.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/game_manager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/game_manager.cpp.o -MF CMakeFiles/server.dir/src/game_manager.cpp.o.d -o CMakeFiles/server.dir/src/game_manager.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/src/game_manager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/game_manager.cpp.o -MF CMakeFiles/server.dir/src/game_manager.cpp.o.d -o CMakeFiles/server.dir/src/game_manager.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/game_manager.cpp
 
 CMakeFiles/server.dir/src/game_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game_manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_manager.cpp > CMakeFiles/server.dir/src/game_manager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/game_manager.cpp > CMakeFiles/server.dir/src/game_manager.cpp.i
 
 CMakeFiles/server.dir/src/game_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game_manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_manager.cpp -o CMakeFiles/server.dir/src/game_manager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/game_manager.cpp -o CMakeFiles/server.dir/src/game_manager.cpp.s
 
 CMakeFiles/server.dir/src/game_session.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/game_session.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_session.cpp
+CMakeFiles/server.dir/src/game_session.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/game_session.cpp
 CMakeFiles/server.dir/src/game_session.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/src/game_session.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/game_session.cpp.o -MF CMakeFiles/server.dir/src/game_session.cpp.o.d -o CMakeFiles/server.dir/src/game_session.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_session.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/src/game_session.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/game_session.cpp.o -MF CMakeFiles/server.dir/src/game_session.cpp.o.d -o CMakeFiles/server.dir/src/game_session.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/game_session.cpp
 
 CMakeFiles/server.dir/src/game_session.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game_session.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_session.cpp > CMakeFiles/server.dir/src/game_session.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/game_session.cpp > CMakeFiles/server.dir/src/game_session.cpp.i
 
 CMakeFiles/server.dir/src/game_session.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game_session.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_session.cpp -o CMakeFiles/server.dir/src/game_session.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/game_session.cpp -o CMakeFiles/server.dir/src/game_session.cpp.s
 
 CMakeFiles/server.dir/src/game_table.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/game_table.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_table.cpp
+CMakeFiles/server.dir/src/game_table.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/game_table.cpp
 CMakeFiles/server.dir/src/game_table.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/src/game_table.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/game_table.cpp.o -MF CMakeFiles/server.dir/src/game_table.cpp.o.d -o CMakeFiles/server.dir/src/game_table.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/src/game_table.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/game_table.cpp.o -MF CMakeFiles/server.dir/src/game_table.cpp.o.d -o CMakeFiles/server.dir/src/game_table.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/game_table.cpp
 
 CMakeFiles/server.dir/src/game_table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/game_table.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_table.cpp > CMakeFiles/server.dir/src/game_table.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/game_table.cpp > CMakeFiles/server.dir/src/game_table.cpp.i
 
 CMakeFiles/server.dir/src/game_table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/game_table.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/game_table.cpp -o CMakeFiles/server.dir/src/game_table.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/game_table.cpp -o CMakeFiles/server.dir/src/game_table.cpp.s
 
 CMakeFiles/server.dir/src/logger.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/logger.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/logger.cpp
+CMakeFiles/server.dir/src/logger.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/logger.cpp
 CMakeFiles/server.dir/src/logger.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/src/logger.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/logger.cpp.o -MF CMakeFiles/server.dir/src/logger.cpp.o.d -o CMakeFiles/server.dir/src/logger.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/src/logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/logger.cpp.o -MF CMakeFiles/server.dir/src/logger.cpp.o.d -o CMakeFiles/server.dir/src/logger.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/logger.cpp
 
 CMakeFiles/server.dir/src/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/logger.cpp > CMakeFiles/server.dir/src/logger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/logger.cpp > CMakeFiles/server.dir/src/logger.cpp.i
 
 CMakeFiles/server.dir/src/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/logger.cpp -o CMakeFiles/server.dir/src/logger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/logger.cpp -o CMakeFiles/server.dir/src/logger.cpp.s
 
 CMakeFiles/server.dir/src/main.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/main.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/main.cpp
+CMakeFiles/server.dir/src/main.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/main.cpp
 CMakeFiles/server.dir/src/main.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/main.cpp.o -MF CMakeFiles/server.dir/src/main.cpp.o.d -o CMakeFiles/server.dir/src/main.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/main.cpp.o -MF CMakeFiles/server.dir/src/main.cpp.o.d -o CMakeFiles/server.dir/src/main.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/main.cpp
 
 CMakeFiles/server.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/main.cpp > CMakeFiles/server.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/main.cpp > CMakeFiles/server.dir/src/main.cpp.i
 
 CMakeFiles/server.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/main.cpp -o CMakeFiles/server.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/main.cpp -o CMakeFiles/server.dir/src/main.cpp.s
 
 CMakeFiles/server.dir/src/request.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/request.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/request.cpp
+CMakeFiles/server.dir/src/request.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/request.cpp
 CMakeFiles/server.dir/src/request.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/src/request.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/request.cpp.o -MF CMakeFiles/server.dir/src/request.cpp.o.d -o CMakeFiles/server.dir/src/request.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/src/request.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/request.cpp.o -MF CMakeFiles/server.dir/src/request.cpp.o.d -o CMakeFiles/server.dir/src/request.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/request.cpp
 
 CMakeFiles/server.dir/src/request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/request.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/request.cpp > CMakeFiles/server.dir/src/request.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/request.cpp > CMakeFiles/server.dir/src/request.cpp.i
 
 CMakeFiles/server.dir/src/request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/request.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/request.cpp -o CMakeFiles/server.dir/src/request.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/request.cpp -o CMakeFiles/server.dir/src/request.cpp.s
 
 CMakeFiles/server.dir/src/response.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/response.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/response.cpp
+CMakeFiles/server.dir/src/response.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/response.cpp
 CMakeFiles/server.dir/src/response.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/src/response.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/response.cpp.o -MF CMakeFiles/server.dir/src/response.cpp.o.d -o CMakeFiles/server.dir/src/response.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/response.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/src/response.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/response.cpp.o -MF CMakeFiles/server.dir/src/response.cpp.o.d -o CMakeFiles/server.dir/src/response.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/response.cpp
 
 CMakeFiles/server.dir/src/response.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/response.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/response.cpp > CMakeFiles/server.dir/src/response.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/response.cpp > CMakeFiles/server.dir/src/response.cpp.i
 
 CMakeFiles/server.dir/src/response.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/response.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/response.cpp -o CMakeFiles/server.dir/src/response.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/response.cpp -o CMakeFiles/server.dir/src/response.cpp.s
 
 CMakeFiles/server.dir/src/router.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/router.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/router.cpp
+CMakeFiles/server.dir/src/router.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/router.cpp
 CMakeFiles/server.dir/src/router.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/src/router.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/router.cpp.o -MF CMakeFiles/server.dir/src/router.cpp.o.d -o CMakeFiles/server.dir/src/router.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/router.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/src/router.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/router.cpp.o -MF CMakeFiles/server.dir/src/router.cpp.o.d -o CMakeFiles/server.dir/src/router.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/router.cpp
 
 CMakeFiles/server.dir/src/router.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/router.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/router.cpp > CMakeFiles/server.dir/src/router.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/router.cpp > CMakeFiles/server.dir/src/router.cpp.i
 
 CMakeFiles/server.dir/src/router.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/router.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/router.cpp -o CMakeFiles/server.dir/src/router.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/router.cpp -o CMakeFiles/server.dir/src/router.cpp.s
 
 CMakeFiles/server.dir/src/server.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/server.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/server.cpp
+CMakeFiles/server.dir/src/server.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/server.cpp
 CMakeFiles/server.dir/src/server.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/src/server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/server.cpp.o -MF CMakeFiles/server.dir/src/server.cpp.o.d -o CMakeFiles/server.dir/src/server.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/src/server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/server.cpp.o -MF CMakeFiles/server.dir/src/server.cpp.o.d -o CMakeFiles/server.dir/src/server.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/server.cpp
 
 CMakeFiles/server.dir/src/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/server.cpp > CMakeFiles/server.dir/src/server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/server.cpp > CMakeFiles/server.dir/src/server.cpp.i
 
 CMakeFiles/server.dir/src/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/server.cpp -o CMakeFiles/server.dir/src/server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/server.cpp -o CMakeFiles/server.dir/src/server.cpp.s
 
 CMakeFiles/server.dir/src/thread_pool.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/thread_pool.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/thread_pool.cpp
+CMakeFiles/server.dir/src/thread_pool.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/thread_pool.cpp
 CMakeFiles/server.dir/src/thread_pool.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/server.dir/src/thread_pool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/thread_pool.cpp.o -MF CMakeFiles/server.dir/src/thread_pool.cpp.o.d -o CMakeFiles/server.dir/src/thread_pool.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/thread_pool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/server.dir/src/thread_pool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/thread_pool.cpp.o -MF CMakeFiles/server.dir/src/thread_pool.cpp.o.d -o CMakeFiles/server.dir/src/thread_pool.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/thread_pool.cpp
 
 CMakeFiles/server.dir/src/thread_pool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/thread_pool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/thread_pool.cpp > CMakeFiles/server.dir/src/thread_pool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/thread_pool.cpp > CMakeFiles/server.dir/src/thread_pool.cpp.i
 
 CMakeFiles/server.dir/src/thread_pool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/thread_pool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/thread_pool.cpp -o CMakeFiles/server.dir/src/thread_pool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/thread_pool.cpp -o CMakeFiles/server.dir/src/thread_pool.cpp.s
 
 CMakeFiles/server.dir/src/user_manager.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/src/user_manager.cpp.o: /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/user_manager.cpp
+CMakeFiles/server.dir/src/user_manager.cpp.o: /Users/gurnoorjande/final-blackjack/cpp-server/src/user_manager.cpp
 CMakeFiles/server.dir/src/user_manager.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/server.dir/src/user_manager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/user_manager.cpp.o -MF CMakeFiles/server.dir/src/user_manager.cpp.o.d -o CMakeFiles/server.dir/src/user_manager.cpp.o -c /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/user_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/server.dir/src/user_manager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/user_manager.cpp.o -MF CMakeFiles/server.dir/src/user_manager.cpp.o.d -o CMakeFiles/server.dir/src/user_manager.cpp.o -c /Users/gurnoorjande/final-blackjack/cpp-server/src/user_manager.cpp
 
 CMakeFiles/server.dir/src/user_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/user_manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/user_manager.cpp > CMakeFiles/server.dir/src/user_manager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurnoorjande/final-blackjack/cpp-server/src/user_manager.cpp > CMakeFiles/server.dir/src/user_manager.cpp.i
 
 CMakeFiles/server.dir/src/user_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/user_manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/amreetdeol/Desktop/Blackjack/cpp-server/src/user_manager.cpp -o CMakeFiles/server.dir/src/user_manager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurnoorjande/final-blackjack/cpp-server/src/user_manager.cpp -o CMakeFiles/server.dir/src/user_manager.cpp.s
 
 # Object files for target server
 server_OBJECTS = \
@@ -256,7 +256,7 @@ server: CMakeFiles/server.dir/src/thread_pool.cpp.o
 server: CMakeFiles/server.dir/src/user_manager.cpp.o
 server: CMakeFiles/server.dir/build.make
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -268,6 +268,6 @@ CMakeFiles/server.dir/clean:
 .PHONY : CMakeFiles/server.dir/clean
 
 CMakeFiles/server.dir/depend:
-	cd /Users/amreetdeol/Desktop/Blackjack/cpp-server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/amreetdeol/Desktop/Blackjack/cpp-server /Users/amreetdeol/Desktop/Blackjack/cpp-server /Users/amreetdeol/Desktop/Blackjack/cpp-server/build /Users/amreetdeol/Desktop/Blackjack/cpp-server/build /Users/amreetdeol/Desktop/Blackjack/cpp-server/build/CMakeFiles/server.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/gurnoorjande/final-blackjack/cpp-server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/gurnoorjande/final-blackjack/cpp-server /Users/gurnoorjande/final-blackjack/cpp-server /Users/gurnoorjande/final-blackjack/cpp-server/build /Users/gurnoorjande/final-blackjack/cpp-server/build /Users/gurnoorjande/final-blackjack/cpp-server/build/CMakeFiles/server.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/server.dir/depend
 

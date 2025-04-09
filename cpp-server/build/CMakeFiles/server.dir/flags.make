@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/amreetdeol/Desktop/Blackjack/cpp-server/include
+CXX_INCLUDES = -I/Users/gurnoorjande/final-blackjack/cpp-server/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 
