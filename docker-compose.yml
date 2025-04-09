@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./cpp-server
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: blackjack-backend
+
+  frontend:
+    build:
+      context: ./frontend/blackjack-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8081:80"
+    container_name: blackjack-frontend
+

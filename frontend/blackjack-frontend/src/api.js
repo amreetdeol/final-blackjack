@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://blackjack-backend-310062056748.us-central1.run.app";
 
 export async function post(path, body, token = "") {
   try {
