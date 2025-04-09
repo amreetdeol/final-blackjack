@@ -1,0 +1,14 @@
+Backend running and setting up:
+
+1. Go to Blackjack/cpp-server/build
+2. Do make clean
+3. cmake .. (might need to install from brew install cmake or something like this)
+4. make (=> compile the code)
+5. ./server
+
+
+
+Frontend
+1. Go to Blackjack/frontend/blackjack-frontend (spelling might be off)
+2. npm install
+2. npm run
